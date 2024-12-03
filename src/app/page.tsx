@@ -38,11 +38,11 @@ export default function Home() {
 
       {/* Sobre Mim */}
       <section className="container mx-auto px-6 py-10">
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+        <div className="flex flex-col justify-center md:flex-row items-center md:items-start gap-6">
           <Image
             src={Foto} // Substitua por sua foto em public/profile.jpg
             alt="Foto de Vinicius Ferrari"
-            className="rounded-full shadow-xl border-[0.2rem] border-primary h-56 w-56"
+            className="rounded-full shadow-xl border-[0.2rem] border-primary h-64 w-64"
           />
           <div>
             <h2 className="text-3xl font-bold text-foreground flex">
@@ -62,12 +62,18 @@ export default function Home() {
             </p>
             <p className="text-muted-foreground mt-4">Canais que acompanho:</p>
             <div className="text-muted-foreground mt-2 flex flex-col">
-              <a href="https://www.youtube.com/@Akitando">@AkitaOnRails</a>
-              <a href="https://www.youtube.com/@filipedeschamps">
-                @filipedeschamps
-              </a>
-              <a href="https://www.youtube.com/@rocketseat">@rocketseat</a>
-              <a href="https://www.youtube.com/@LucasMontano">@LucasMontano</a>
+              <div className="">
+                <a href="https://www.youtube.com/@Akitando">@AkitaOnRails </a>
+                <a href="https://www.youtube.com/@filipedeschamps">
+                  @filipedeschamps
+                </a>
+              </div>
+              <div>
+                <a href="https://www.youtube.com/@rocketseat">@rocketseat </a>
+                <a href="https://www.youtube.com/@LucasMontano">
+                  @LucasMontano
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -92,12 +98,12 @@ export default function Home() {
           <ListItem
             titulo="Full-stack, Bolsista CNPq"
             data="Em 2024 – 1 Ano"
-            texto="Desenvolvimento de um dashboard sobre Tuberculose abrangendo Mato Grosso e Brasil, utilizando React e Bootstrap. Implementação de um back-end com Python e Flask. Realização de análise e tratamento de dados com Python, com uso de Docker para orquestração."
+            texto="Desenvolvimento de um dashboard sobre Tuberculose abrangendo Mato Grosso e Brasil, utilizando React e Bootstrap. Implementação de um back-end com Python e Flask. Realização de análise e tratamento de dados com Python, com uso de Docker."
           />
           <ListItem
             titulo="Front-end, Freelancer"
             data="Em 2024 – 6 Meses"
-            texto="Desenvolvimento de um site completo para edição de laudos médicos, e outro para uma plataforma de Games. Utilizando Next.js, Tailwind CSS e shadcn/ui, com integração de Docker para gerenciamento de ambientes."
+            texto="Desenvolvimento de um site completo para edição de laudos médicos, e outro para uma plataforma de Games. Utilizando Next.js, Tailwind CSS e shadcn/ui, com uso de Docker."
           />
         </div>
       </section>
@@ -204,7 +210,7 @@ export default function Home() {
       {/* Rodapé */}
       <footer className="bg-primary text-white py-4">
         <div className="container mx-auto text-center">
-          <p>&copy; 2024 Vinicius Ferrari. Todos os direitos reservados.</p>
+          <p>&copy; 2024 - Vinicius Ferrari. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
