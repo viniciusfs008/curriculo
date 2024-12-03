@@ -3,5 +3,6 @@
 tambem utilizado tecnologias como chadcn e framer-motion
 
 ### Para rodar utilize:
+    npm install
     npm run dev
 
